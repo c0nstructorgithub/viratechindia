@@ -1,0 +1,10 @@
+# local runtime / tunnel logs (not part of the site)
+.server.log
+.cf.log
+.ngrok.log
+*.log
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store

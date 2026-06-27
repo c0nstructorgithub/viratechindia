@@ -1,0 +1,11 @@
+MetaStock-rmo.html	Viratech
+about-us.html	Viratech
+advanced-get.html	Viratech
+contact-us.html	Viratech
+index.html	Viratech
+index.html	Viratech
+metastock-end-of-day.html	Viratech
+metastock-pro.html	Viratech
+metastock-rmo.html	Viratech
+press-review.html	Viratech
+technical-workshops.html	Viratech
