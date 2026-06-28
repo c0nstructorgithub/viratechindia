@@ -352,3 +352,22 @@ img.side-logos{display:block; float:none !important; margin:10px 0;}
 .ta-banner-content h5 span{display:none;}
 	
 }
+
+/* ===== Mobile responsive fixes ===== */
+@media (max-width:767px){
+  /* Hamburger toggle: position it absolutely so it actually paints */
+  .navbar-custom .navbar-header{ position:relative; min-height:72px; }
+  .navbar-custom .navbar-toggle{
+    display:block !important;
+    position:absolute; top:18px; right:12px; z-index:1000;
+    float:none; margin:0; padding:9px 10px;
+    background:#fff; border:1px solid #212670 !important; border-radius:4px;
+  }
+  .navbar-custom .navbar-toggle .icon-bar{ background-color:#212670 !important; }
+  .navbar-custom .navbar-nav{ margin:0 !important; padding-right:0 !important; }
+  .navbar-custom .navbar-collapse{ padding-left:0; padding-right:0; border-top:1px solid #e7e7e7; max-height:none; }
+  .navbar-custom .navbar-nav > li > a{ padding:12px 15px; }
+  /* Quick-action buttons: all four on one row, no overflow */
+  .buttons{ max-width:100%; padding:0 8px; font-size:0; text-align:center; }
+  .get-in-touch, .pay-now, .support, .webinar{ width:25% !important; margin:0 !important; }
+}
