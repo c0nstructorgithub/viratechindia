@@ -372,25 +372,30 @@ img.side-logos{display:block; float:none !important; margin:10px 0;}
   .get-in-touch, .pay-now, .support, .webinar{ width:48% !important; margin:0 1% !important; }
 }
 
-/* ===== Mobile slider redesign: hero caption on the left ===== */
+/* ===== Mobile slider redesign: caption overlaid on the banner (per-slide side) ===== */
 @media (max-width:767px){
-  .slider-wrapper{ position:relative !important; height:210px !important; overflow:hidden; margin:0 !important; }
-  #slider{ position:relative !important; height:210px !important; overflow:hidden; }
-  #slider img{ width:100% !important; height:210px !important; object-fit:cover; object-position:70% center; }
+  .slider-wrapper{ position:relative !important; height:200px !important; overflow:hidden; margin:0 !important; }
+  #slider{ position:relative !important; height:200px !important; overflow:hidden; }
+  #slider img{ width:100% !important; height:200px !important; object-fit:cover; object-position:60% center; }
+  #slider img[src*="advanced-get"]{ object-position:58% center; }
+  #slider img[src*="metastock-20"]{ object-position:66% center; }
+  #slider img[src*="rmo"]{ object-position:24% center; }
   .nivo-caption{
     position:absolute !important; top:0 !important; bottom:auto !important; left:0 !important; right:0 !important;
-    width:100% !important; height:210px !important; padding:0 !important; opacity:1 !important;
-    display:flex !important; align-items:center;
-    background:linear-gradient(to right, rgba(10,14,30,0.9) 0%, rgba(10,14,30,0.62) 48%, rgba(10,14,30,0) 82%) !important;
+    width:100% !important; height:200px !important; padding:0 !important; opacity:1 !important;
+    display:flex !important; align-items:center; overflow:hidden;
+    background:linear-gradient(to right, rgba(8,11,26,0.88) 0%, rgba(8,11,26,0.5) 46%, rgba(8,11,26,0) 75%) !important;
   }
+  .nivo-caption:has(.col-md-offset-8){ background:linear-gradient(to left, rgba(8,11,26,0.88) 0%, rgba(8,11,26,0.5) 46%, rgba(8,11,26,0) 75%) !important; }
   .nivo-caption .only-mobile{ display:none !important; }
-  .nivo-caption .container{ width:100% !important; padding:0 20px !important; }
-  .nivo-caption .row{ margin:0 !important; }
-  .nivo-caption [class*="col-md-"]{ width:82% !important; float:none !important; padding:0 !important; margin:0 !important; }
-  .nivo-caption .banner-inside, .nivo-caption .metastock{ display:block !important; background:none !important; text-align:left !important; padding:0 !important; }
-  .nivo-caption h1{ color:#fff !important; font-size:21px !important; line-height:25px !important; font-weight:bold !important; margin:0 0 8px !important; }
-  .nivo-caption p{ color:#e9e9e9 !important; font-size:12.5px !important; line-height:17px !important; margin:0 0 12px !important;
-    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
-  .nivo-caption a, .nivo-caption a.btn{ display:inline-block !important; background:#c0392b !important; color:#fff !important;
-    padding:7px 20px !important; border-radius:4px !important; font-size:13px !important; font-weight:bold !important; text-decoration:none !important; opacity:1 !important; border:0 !important; }
+  .nivo-caption .container{ width:100% !important; padding:0 18px !important; }
+  .nivo-caption .row{ margin:0 !important; display:flex !important; }
+  .nivo-caption [class*="col-md-"]{ width:70% !important; float:none !important; padding:0 !important; margin:0 !important; }
+  .nivo-caption .col-md-offset-8{ margin-left:auto !important; }
+  .nivo-caption .col-md-offset-8 .banner-inside{ text-align:right !important; }
+  .nivo-caption .banner-inside, .nivo-caption .metastock{ display:block !important; background:none !important; padding:0 !important; }
+  .nivo-caption h1{ color:#fff !important; font-size:18px !important; line-height:22px !important; font-weight:bold !important; margin:0 0 8px !important; white-space:normal; }
+  .nivo-caption p{ color:#ececec !important; font-size:12px !important; line-height:16px !important; margin:0 0 11px !important;
+    display:-webkit-box !important; -webkit-line-clamp:2 !important; -webkit-box-orient:vertical !important; overflow:hidden !important; max-height:32px; }
+  .nivo-caption a, .nivo-caption a.btn{ display:inline-block !important; background:#c0392b !important; color:#fff !important; padding:6px 18px !important; border-radius:4px !important; font-size:12px !important; font-weight:bold !important; text-decoration:none !important; opacity:1 !important; border:0 !important; }
 }
