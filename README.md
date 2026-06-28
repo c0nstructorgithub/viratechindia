@@ -27,13 +27,13 @@ Press `Ctrl+C` in the console window to stop the server.
 | Home | [index.html](index.html) | Hero image slider (Nivo), featured products (Advanced GET, MetaStock 17, RMO ATM), CTAs, ATM Power Screener, conference promo |
 | About Us | [about-us.html](about-us.html) | Company background / vendor certification |
 | Advanced GET | [advanced-get.html](advanced-get.html) | eSignal Advanced GET product + feature screenshots |
-| Training Workshops | [technical-workshops.html](technical-workshops.html) | Technical analysis training / workshops |
+| Workshops & Training | [technical-workshops.html](technical-workshops.html) | Contact CTA for workshops / webinars / 1-to-1 training |
 | MetaStock DC (End of Day) | [metastock-end-of-day.html](metastock-end-of-day.html) | MetaStock end‑of‑day edition (largest page) |
 | MetaStock RT (Real Time) | [metastock-pro.html](metastock-pro.html) | MetaStock real‑time / Pro edition |
 | RMO ATM | [metastock-rmo.html](metastock-rmo.html) | RMO ATM 3.0 by Rahul Mohindar |
-| StocksUP End of Day | `stocksup-eod.html` | ⚠️ **Missing** — see Known issues |
-| Press Review | [press-review.html](press-review.html) | Press coverage |
-| Contact Us | [contact-us.html](contact-us.html) | Contact details / form |
+| Contact Us | [contact-us.html](contact-us.html) | WhatsApp + Telegram + UAE address |
+
+> _Note: StocksUP and Press Review were removed from the nav; the Press Review page was deleted._
 
 > `MetaStock-rmo.html` and `metastock-rmo.html` are the **same page** — the live IIS server (and
 > Windows' case‑insensitive filesystem) serve both URLs from one file.
