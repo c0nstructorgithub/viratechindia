@@ -37,7 +37,7 @@ header{position:relative;}
 .get-in-touch, .pay-now,.support, .webinar{ width:60px; border-radius:30px; height:60px;  position:absolute; top:20%; right:10px; z-index:9;  overflow:hidden; transition: all 0.25s ease-out;-webkit-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; }
 	
 .get-in-touch{background:#B31114;}
-.support{background:#666666; margin-top:140px;}
+.support{background:#666666; margin-top:70px;}
 .webinar{background:#403f3f; margin-top:210px;}
 .pay-now{background:#212670; margin-top:70px;}
 
@@ -369,5 +369,5 @@ img.side-logos{display:block; float:none !important; margin:10px 0;}
   .navbar-custom .navbar-nav > li > a{ padding:12px 15px; }
   /* Quick-action buttons: all four on one row, no overflow */
   .buttons{ max-width:100%; padding:0 8px; font-size:0; text-align:center; }
-  .get-in-touch, .pay-now, .support, .webinar{ width:25% !important; margin:0 !important; }
+  .get-in-touch, .pay-now, .support, .webinar{ width:48% !important; margin:0 1% !important; }
 }
