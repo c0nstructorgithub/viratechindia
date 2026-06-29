@@ -399,3 +399,10 @@ img.side-logos{display:block; float:none !important; margin:10px 0;}
     display:-webkit-box !important; -webkit-line-clamp:2 !important; -webkit-box-orient:vertical !important; overflow:hidden !important; max-height:32px; }
   .nivo-caption a, .nivo-caption a.btn{ display:inline-block !important; background:#c0392b !important; color:#fff !important; padding:6px 18px !important; border-radius:4px !important; font-size:12px !important; font-weight:bold !important; text-decoration:none !important; opacity:1 !important; border:0 !important; }
 }
+
+/* ===== Mobile: never hide scroll-reveal blocks. The .os-animation fade-in depends on a scroll
+   waypoint that is unreliable on touch devices; when it doesn't fire, whole blocks stay at
+   opacity:0, leaving big white gaps and stranding the right-margin promo images at the bottom. ===== */
+@media (max-width:767px){
+  .os-animation{ opacity:1 !important; }
+}
